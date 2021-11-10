@@ -1,0 +1,8 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>2</groupId>
+  <artifactId>2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>QueueSimulator</name>
+  <description>This is a queue simulator, very useful for real world applications. It has 2 policies the user can choose from: waiting time and number of clients. This project offers a nice representation, each client containing a tuple (an unique id, arrival time, processing time)</description>
+</project>

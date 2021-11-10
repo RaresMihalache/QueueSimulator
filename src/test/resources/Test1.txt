@@ -1,0 +1,58 @@
+Time 0:
+Waiting Clients: (1,2,4);(4,2,2);(3,6,3);(2,7,3);
+Queue1: closed
+Queue2: closed
+
+Time 1:
+Waiting Clients: (1,2,4);(4,2,2);(3,6,3);(2,7,3);
+Queue1: closed
+Queue2: closed
+
+Time 2:
+Waiting Clients: (3,6,3);(2,7,3);
+Queue1: (1,2,4); 
+Queue2: (4,2,2); 
+
+Time 3:
+Waiting Clients: (3,6,3);(2,7,3);
+Queue1: (1,2,3); 
+Queue2: (4,2,1); 
+
+Time 4:
+Waiting Clients: (3,6,3);(2,7,3);
+Queue1: (1,2,2); 
+Queue2: closed
+
+Time 5:
+Waiting Clients: (3,6,3);(2,7,3);
+Queue1: (1,2,1); 
+Queue2: closed
+
+Time 6:
+Waiting Clients: (2,7,3);
+Queue1: (3,6,3); 
+Queue2: closed
+
+Time 7:
+Waiting Clients: none.
+Queue1: (3,6,2); 
+Queue2: (2,7,3); 
+
+Time 8:
+Waiting Clients: none.
+Queue1: (3,6,1); 
+Queue2: (2,7,2); 
+
+Time 9:
+Waiting Clients: none.
+Queue1: closed 
+Queue2: (2,7,1); 
+
+Time 10:
+Waiting Clients: none.
+Queue1: closed
+Queue2: closed
+
+Average processing time: 3.0
+Average waiting time: 0.0
+Peak time: 2
